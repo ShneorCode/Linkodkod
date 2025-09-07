@@ -1,11 +1,15 @@
 import './App.css'
-import PostCard from './components/PostCard'
+import Homepage from './components/Homepage'
+import '../src/css/PostCard.css'
+import '../src/css/Homepage.css'
+
+
 
 function App() {
 
   return (
     <>
-    <PostCard />
+    <Homepage />
     </>
   )
 }

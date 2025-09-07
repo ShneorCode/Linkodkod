@@ -1,0 +1,24 @@
+[
+  {
+    "user": "avi-1",
+    "date": "08.01.2022",
+    "likes": "5",
+    "description": "lorem10",
+    "img": "https://did.li/DdNZH"
+  },
+  {
+    "user": "avi-2",
+    "date": "09.01.2022",
+    "likes": "6",
+    "description": "lorem15",
+    "img": "https://did.li/DdNZH"
+  },
+
+  {
+    "user": "avi-3",
+    "date": "10.01.2022",
+    "likes": "7",
+    "description": "lorem20",
+    "img": "https://did.li/DdNZH"
+  }
+]
