@@ -1,24 +1,11 @@
-import PostCard from "./PostCard";
-import type Post from "../types/post.type.js";
-import postsData from "../db/posts.json";
+import Header from "./application-layout/Header.js";
+import Main from "./application-layout/main.js";
 
 export const Homepage = () => {
   return (
-    <>
-      <div className="posts">
-        {postsData.map((data: Post) => {
-          return (
-            <PostCard
-              id={data.id}
-              user={data.user}
-              img={data.img}
-              description={data.description}
-              date={data.date}
-              likes={data.likes}
-            />
-          );
-        })}
-      </div>
-    </>
+    <div className="homepage">
+      <Header />
+      <Main />
+    </div>
   );
 };
