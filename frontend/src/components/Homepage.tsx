@@ -1,30 +1,24 @@
 import PostCard from "./PostCard";
+import type Post from "../types/post.type.js";
+import postsData from "../db/posts.json";
 
-export default function Homepage() {
+export const Homepage = () => {
   return (
-    <div className="posts">
-      <PostCard
-        user="מוישי - קודקוד א"
-        img="https://did.li/xRSIw"
-        description='עשרה טיפים חשובים לקראת המעבר ליחידות בצה"ל'
-        date="07.09.2025"
-        likes="5"
-      />
-      <PostCard
-        user="חיים - קודקוד ד"
-        img="https://did.li/bXBx5"
-        description="רשמים מהאקתון בליל שישי - חוויה בלתי נשכחת"
-        date="07.09.2025"
-        likes="6"
-      />
-      <PostCard
-        user="מנחם - קודקוד ג"
-        img="https://did.li/2uYrl"
-        description="שימוש בבינה מלאכותית במהלך הלימודים - יתרונות וחסרונות"
-
-        date="07.09.2025"
-        likes="7"
-      />
-    </div>
+    <>
+      <div className="posts">
+        {postsData.map((data: Post) => {
+          return (
+            <PostCard
+              id={data.id}
+              user={data.user}
+              img={data.img}
+              description={data.description}
+              date={data.date}
+              likes={data.likes}
+            />
+          );
+        })}
+      </div>
+    </>
   );
-}
+};

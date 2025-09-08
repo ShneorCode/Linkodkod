@@ -1,24 +1,28 @@
 [
   {
-    "user": "avi-1",
-    "date": "08.01.2022",
+    "id": "1",
+    "user": "מוישי - קודקוד א",
+    "date": "07.09.2025",
     "likes": "5",
-    "description": "lorem10",
-    "img": "https://did.li/DdNZH"
-  },
-  {
-    "user": "avi-2",
-    "date": "09.01.2022",
-    "likes": "6",
-    "description": "lorem15",
-    "img": "https://did.li/DdNZH"
+    "description": "עשרה טיפים חשובים לקראת המעבר ליחידות בצה\"ל",
+    "img": "https://did.li/xRSIw"
   },
 
   {
-    "user": "avi-3",
-    "date": "10.01.2022",
+    "id": "2",
+    "user": "חיים - קודקוד ד",
+    "date": "07.09.2025",
+    "likes": "6",
+    "description": "רשמים מהאקתון בליל שישי - חוויה בלתי נשכחת",
+    "img": "https://did.li/bXBx5"
+  },
+
+  {
+    "id": "3",
+    "user": "מנחם - קודקוד ג",
+    "date": "07.09.2025",
     "likes": "7",
-    "description": "lorem20",
-    "img": "https://did.li/DdNZH"
+    "description": "שימוש בבינה מלאכותית במהלך הלימודים - יתרונות וחסרונות",
+    "img": "https://did.li/2uYrl"
   }
 ]

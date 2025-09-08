@@ -1,5 +1,5 @@
 import './App.css'
-import Homepage from './components/Homepage'
+import {Homepage} from './components/Homepage'
 import '../src/css/PostCard.css'
 import '../src/css/Homepage.css'
 
