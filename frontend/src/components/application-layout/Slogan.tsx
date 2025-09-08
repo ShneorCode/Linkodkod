@@ -3,7 +3,7 @@ export default function Slogan() {
     <img
       className="slogan"
       alt="slogan"
-      src="img/slogan.png"
+      src="img/slogan-1.png"
       width={85}
       height={20}
     ></img>

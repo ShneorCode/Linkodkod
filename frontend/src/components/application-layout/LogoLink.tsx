@@ -4,8 +4,8 @@ export default function LogoLink() {
       className="logo-linkodkod"
       alt="logo"
       src="img/logo-kodkod.jpg"
-      width={80}
-      height={80}
+      width={85}
+      height={85}
     ></img>
   );
 }
