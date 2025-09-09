@@ -1,4 +1,5 @@
-export default interface User {
+export default interface Post {
+  id: string;
   user: string;
   date: string;
   likes?: string;

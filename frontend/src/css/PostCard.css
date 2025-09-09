@@ -3,18 +3,18 @@
   display: flex;
   flex-direction: row;
   gap: 50px;
-  border: 1px solid black;
-  border-radius: 50px;
+  border: 1px solid #e9e9e9;
+  color: #013e6c;
+  border-radius: 10px;
   padding: 30px;
   width: 500px;
-  background: #e3ebf8;
   direction: rtl;
 }
 
 
 
 .post-img {
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 
@@ -26,15 +26,16 @@
 
 .post-description {
   font-family: system-ui;
-  font-size: larger;
+  font-size: 16px;
 }
 
 
 .post-user-date-like {
-  font-family: Arial;
+  font-family: system-ui;
   display: flex;
   gap: 30px;
-  color: darkgray;
+  color: black;
+  font-size: 14px;
   
   
 }

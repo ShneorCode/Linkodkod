@@ -1,0 +1,5 @@
+.hedaer {
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+}
