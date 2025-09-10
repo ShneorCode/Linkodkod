@@ -1,5 +1,5 @@
 import PostCard from "./PostCard";
-import type Post from "../types/post.type.js";
+import type {Post} from "../types/post.type.js";
 import postsData from "../../../backend/db/posts.json";
 
 export default function Posts() {
