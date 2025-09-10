@@ -1,4 +1,4 @@
-export default interface Post {
+export type Post = {
   id: string;
   user: string;
   date: string;
