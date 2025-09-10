@@ -1,6 +1,4 @@
-import {readJsonPosts, addJsonPost} from "../services/postsServices.js";
-
-
+import { readJsonPosts, addJsonPost } from "../services/postsServices.js";
 
 export function getAllPostsController(req, res) {
   try {
@@ -13,10 +11,10 @@ export function getAllPostsController(req, res) {
 }
 
 export async function createPostController(req, res) {
-  try { 
+  try {
     const post = req.body;
     if (!post.user || !post.description) {
-      return res.status(400).json({ error: "Missing required post fields." });
+      return res.status(400).send(" error: Missing required post fields. ");
     }
     addJsonPost(post);
     res.status(201).send("added");
