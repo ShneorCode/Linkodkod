@@ -5,19 +5,19 @@ import postsData from "../../../backend/db/posts.json";
 export default function Posts() {
   return (
     <div className="posts">
-
-        {postsData.map((data: Post) => {
-          return (
-            <PostCard
-              id={data.id}
-              user={data.user}
-              img={data.img}
-              description={data.description}
-              date={data.date}
-              likes={data.likes}
-            />
-          );
-        })}
-      </div>
-  )
+      {postsData.map((post: Post) => {
+        return (
+          <PostCard
+            key={post.id}
+            id={post.id}
+            user={post.user}
+            img={post.img}
+            description={post.description}
+            date={post.date}
+            likes={post.likes}
+          />
+        );
+      })}
+    </div>
+  );
 }
